@@ -59,6 +59,12 @@ body {
       -ms-flex-line-pack: stretch;
           align-content: stretch;
   background: #ececec; }
+  
+ .title{
+	color:#8A0868;
+	Font-Weight: Bold;
+	Font-size: 25px;
+ }
 
 .header {
   width: 100%;
