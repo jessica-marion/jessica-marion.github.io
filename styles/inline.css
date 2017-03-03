@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+
+
 * {
   box-sizing: border-box; }
 
@@ -62,7 +64,7 @@ body {
   width: 100%;
   height: 56px;
   color: #FFF;
-  background: #3F51B5;
+  background: #8A0868;
   position: fixed;
   font-size: 20px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
@@ -108,10 +110,13 @@ body {
     border: none;
     outline: none;
     cursor: pointer; }
-  .header #butRefresh {
-    background: url(/images/ic_refresh_white_24px.svg) center center no-repeat; }
-  .header #butAdd {
-    background: url(/images/ic_add_white_24px.svg) center center no-repeat; }
+  .header #butProject {
+    background: url(/images/app.svg) center center no-repeat; }
+  .header #butContact {
+    background: url(/images/email.svg) center center no-repeat; }
+	.header #butPeople {
+    background: url(/images/man-user.svg) center center no-repeat; }
+	
 
 .header__title {
   font-weight: 400;
@@ -393,14 +398,14 @@ body {
   .mdl-button:active {
     background-color: rgba(158, 158, 158, 0.4); }
   .mdl-button.mdl-button--colored {
-    color: #3f51b5; }
+    color: #8A0868; }
     .mdl-button.mdl-button--colored:focus:not(:active) {
       background-color: rgba(0, 0, 0, 0.12); }
 
 .mdl-button--primary.mdl-button--primary {
-  color: #3f51b5; }
+  color: #8A0868; }
   .mdl-button--primary.mdl-button--primary .mdl-ripple {
     background: white; }
   .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab {
     color: white;
-    background-color: #3f51b5; }
+    background-color: #8A0868; }

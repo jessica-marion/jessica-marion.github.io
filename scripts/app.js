@@ -39,10 +39,12 @@
     app.updateForecasts();
   });
 
-  document.getElementById('butAdd').addEventListener('click', function() {
+  document.getElementById('butPeople').addEventListener('click', function() {
     // Open/show the add new city dialog
     app.toggleAddDialog(true);
   });
+  
+  
 
   document.getElementById('butAddCity').addEventListener('click', function() {
     // Add the newly selected city
