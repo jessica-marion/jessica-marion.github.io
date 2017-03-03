@@ -65,6 +65,18 @@ body {
 	Font-Weight: Bold;
 	Font-size: 25px;
  }
+ 
+ #butMembre {
+	border:none;
+	padding:6px;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #2E2E2E;
+	background:#fff;
+	font:bold 13px Arial;
+	color:#8A0868;
+	border-radius:2px;
+	float:right;
+}
 
 .header {
   width: 100%;
@@ -122,6 +134,7 @@ body {
     background: url(/images/email.svg) center center no-repeat; }
 	.header #butPeople {
     background: url(/images/man-user.svg) center center no-repeat; }
+	
 	
 
 .header__title {
