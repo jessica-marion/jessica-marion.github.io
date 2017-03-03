@@ -135,7 +135,14 @@ body {
 	.header #butPeople {
     background: url(/images/man-user.svg) center center no-repeat; }
 	
-	
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:193px;
+    height:320px;
+}	
 
 .header__title {
   font-weight: 400;
