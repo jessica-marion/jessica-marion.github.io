@@ -142,6 +142,7 @@ body {
     border-radius:50px;
     width:193px;
     height:320px;
+	float: right;
 }	
 
 .header__title {
